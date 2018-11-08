@@ -1,0 +1,7 @@
+﻿  paint.cpp
+  main.cpp
+  正在生成代码...
+paint.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::line(class cv::debug_build_guard::_InputOutputArray const &,class cv::Point_<int>,class cv::Point_<int>,class cv::Scalar_<double> const &,int,int,int)" (?line@cv@@YAXAEBV_InputOutputArray@debug_build_guard@1@V?$Point_@H@1@1AEBV?$Scalar_@N@1@HHH@Z)，该符号在函数 "void __cdecl paintPolygon(class cv::Mat,struct tag_double2Ds)" (?paintPolygon@@YAXVMat@cv@@Utag_double2Ds@@@Z) 中被引用
+paint.obj : error LNK2019: 无法解析的外部符号 "bool __cdecl cv::imwrite(class cv::String const &,class cv::debug_build_guard::_InputArray const &,class std::vector<int,class std::allocator<int> > const &)" (?imwrite@cv@@YA_NAEBVString@1@AEBV_InputArray@debug_build_guard@1@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z)，该符号在函数 "void __cdecl paintTriangles(char *,struct tag_double2Ds,struct tag_int3Ds)" (?paintTriangles@@YAXPEADUtag_double2Ds@@Utag_int3Ds@@@Z) 中被引用
+paint.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::imshow(class cv::String const &,class cv::debug_build_guard::_InputArray const &)" (?imshow@cv@@YAXAEBVString@1@AEBV_InputArray@debug_build_guard@1@@Z)，该符号在函数 "void __cdecl paintTriangles(char *,struct tag_double2Ds,struct tag_int3Ds)" (?paintTriangles@@YAXPEADUtag_double2Ds@@Utag_int3Ds@@@Z) 中被引用
+C:\Users\pengfei\Desktop\switch用法\x64\Debug\switch用法.exe : fatal error LNK1120: 3 个无法解析的外部命令

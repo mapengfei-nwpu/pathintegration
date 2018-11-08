@@ -1,0 +1,12 @@
+﻿  cuda_test.cpp
+c:\users\pengfei\documents\visual studio 2015\projects\knn\knn\cuda_test.cpp(27): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+c:\users\pengfei\documents\visual studio 2015\projects\knn\knn\cuda_test.cpp(31): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\pengfei\documents\visual studio 2015\projects\knn\knn\cuda_test.cpp(36): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在跳过...(未检测到相关更改)
+  test.cpp
+cuda_knn.cu.obj : error LNK2019: 无法解析的外部符号 cublasInit，该符号在函数 "bool __cdecl knn_cublas(float const *,int,float const *,int,int,int,float *,int *)" (?knn_cublas@@YA_NPEBMH0HHHPEAMPEAH@Z) 中被引用
+cuda_knn.cu.obj : error LNK2019: 无法解析的外部符号 cublasShutdown，该符号在函数 "bool __cdecl knn_cublas(float const *,int,float const *,int,int,int,float *,int *)" (?knn_cublas@@YA_NPEBMH0HHHPEAMPEAH@Z) 中被引用
+cuda_knn.cu.obj : error LNK2019: 无法解析的外部符号 cublasGetError，该符号在函数 "bool __cdecl knn_cublas(float const *,int,float const *,int,int,int,float *,int *)" (?knn_cublas@@YA_NPEBMH0HHHPEAMPEAH@Z) 中被引用
+cuda_knn.cu.obj : error LNK2019: 无法解析的外部符号 cublasSgemm，该符号在函数 "bool __cdecl knn_cublas(float const *,int,float const *,int,int,int,float *,int *)" (?knn_cublas@@YA_NPEBMH0HHHPEAMPEAH@Z) 中被引用
+c:\Users\pengfei\documents\visual studio 2015\Projects\KNN\x64\Debug\KNN.exe : fatal error LNK1120: 4 个无法解析的外部命令
